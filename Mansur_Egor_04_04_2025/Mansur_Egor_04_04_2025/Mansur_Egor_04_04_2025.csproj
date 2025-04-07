@@ -73,23 +73,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BigIntegerFactorial.cs" />
-    <Compile Include="CollectionProcessor.cs" />
-    <Compile Include="ComplexNumberOperations.cs" />
-    <Compile Include="ComplexStringSplitter.cs" />
-    <Compile Include="DateExtractor.cs" />
-    <Compile Include="ImmutableCollectionDemo.cs" />
-    <Compile Include="IndexRangeDemo.cs" />
-    <Compile Include="ListSorter.cs" />
-    <Compile Include="NumberFormatter.cs" />
+    <Compile Include="15_IndexRangeDemo.cs" />
+    <Compile Include="16_RangeManipulationDemo.cs" />
+    <Compile Include="17_UriParserDemo.cs" />
+    <Compile Include="18_NetworkCheckDemo.cs" />
+    <Compile Include="19_AttributeReader.cs" />
+    <Compile Include="1_BigIntegerFactorial.cs" />
+    <Compile Include="13_CollectionProcessor.cs" />
+    <Compile Include="20_LocalizationDemo.cs" />
+    <Compile Include="2_ComplexNumberOperations.cs" />
+    <Compile Include="10_ComplexStringSplitter.cs" />
+    <Compile Include="9_DateExtractor.cs" />
+    <Compile Include="14_ImmutableCollectionDemo.cs" />
+    <Compile Include="11_ListSorter.cs" />
+    <Compile Include="3_NumberFormatter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegexValidator.cs" />
-    <Compile Include="StringEfficiencyTester.cs" />
-    <Compile Include="StringProcessor.cs" />
-    <Compile Include="SubstringExtractor.cs" />
-    <Compile Include="SubstringSearcher.cs" />
-    <Compile Include="WordFrequencyAnalyzer.cs" />
+    <Compile Include="8_RegexValidator.cs" />
+    <Compile Include="6_StringEfficiencyTester.cs" />
+    <Compile Include="5_StringProcessor.cs" />
+    <Compile Include="4_SubstringExtractor.cs" />
+    <Compile Include="7_SubstringSearcher.cs" />
+    <Compile Include="12_WordFrequencyAnalyzer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

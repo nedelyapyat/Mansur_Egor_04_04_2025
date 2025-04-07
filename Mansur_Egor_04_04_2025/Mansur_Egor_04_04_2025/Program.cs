@@ -29,40 +29,55 @@ namespace Mansur_Egor_04_04_2025
                             NumberFormatter.Execute();
                             break;
                         case 4:
-                            StringProcessor.Execute();
-                            break;
-                        case 5:
-                            StringEfficiencyTester.Execute();
-                            break;
-                        case 6:
                             SubstringSearcher.Execute();
                             break;
+                        case 5:
+                            StringProcessor.Execute();
+                            break;
+                        case 6:
+                            StringEfficiencyTester.Execute();
+                            break;
                         case 7:
-                            RegexValidator.Execute();
+                            SubstringSearcher.Execute();
                             break;
                         case 8:
-                            DateExtractor.Execute();
+                            RegexValidator.Execute();
                             break;
                         case 9:
-                            ComplexStringSplitter.Execute();
+                            DateExtractor.Execute();
                             break;
                         case 10:
-                            ListSorter.Execute();
+                            ComplexStringSplitter.Execute();
                             break;
                         case 11:
-                            WordFrequencyAnalyzer.Execute();
+                            ListSorter.Execute();
                             break;
                         case 12:
-                            CollectionProcessor.Execute();
+                            WordFrequencyAnalyzer.Execute();
                             break;
                         case 13:
-                            ImmutableCollectionDemo.Execute();
+                            CollectionProcessor.Execute();
                             break;
                         case 14:
-                            _14__MultiplicationTable.Execute();
+                            ImmutableCollectionDemo.Execute();
                             break;
                         case 15:
-                            _15_FromStringToDateTime.Execute();
+                            IndexRangeDemo.Execute();
+                            break;
+                        case 16:
+                            RangeManipulationDemo.Execute();
+                            break;
+                        case 17:
+                            UriParserDemo.Execute();
+                            break;
+                        case 18:
+                            NetworkCheckDemo.Execute();
+                            break;
+                        case 19:
+                            AttributeReader.Execute();
+                            break;
+                        case 20:
+                            LocalizationDemo.Execute();
                             break;
                         default:
                             Console.WriteLine("Некорректный номер задания.");
