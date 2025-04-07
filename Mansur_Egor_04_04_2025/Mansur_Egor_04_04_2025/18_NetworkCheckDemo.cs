@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Mansur_Egor_04_04_2025
 {
-    class NetworkCheckDemo
+    public class NetworkCheckDemo
     {
         public static async Task Execute()
         {

@@ -61,18 +61,18 @@ namespace Mansur_Egor_04_04_2025
                         case 14:
                             ImmutableCollectionDemo.Execute();
                             break;
-                        case 15:
+                        /*case 15:
                             IndexRangeDemo.Execute();
                             break;
                         case 16:
                             RangeManipulationDemo.Execute();
-                            break;
+                            break;*/
                         case 17:
                             UriParserDemo.Execute();
                             break;
-                        case 18:
+                            /*case 18:
                             NetworkCheckDemo.Execute();
-                            break;
+                            break; */
                         case 19:
                             AttributeReader.Execute();
                             break;
