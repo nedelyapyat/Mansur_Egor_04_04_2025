@@ -18,14 +18,26 @@ namespace Mansur_Egor_04_04_2025
             Console.WriteLine("Исходный массив:");
             Console.WriteLine(string.Join(", ", numbers));
 
-            Index lastIndex = ^1; // Последний элемент
-            Range middleRange = 2..6; // Элементы с индекса 2 по 5 (6 не включается)
+            // Использование Index
+            Index firstIndex = new Index(3); // Четвёртый элемент с начала
+            Index lastIndex = new Index(5, fromEnd: true); // Пятый элемент с конца
 
-            Console.WriteLine($"Последний элемент: {numbers[lastIndex]}");
+            Console.WriteLine($"Элемент на позиции {firstIndex.Value}: {numbers[firstIndex]}");
+            Console.WriteLine($"Элемент на позиции -{lastIndex.Value} (с конца): {numbers[lastIndex]}");
 
-            int[] middleArray = numbers[middleRange];
-            Console.WriteLine("Подмассив (индексы 2-5):");
-            Console.WriteLine(string.Join(", ", middleArray));
+            // Использование Range
+            Range range1 = new Range(3, 7); // Элементы с индекса 3 по 6 (7 не включается)
+            Range range2 = ..5; // Первые 5 элементов
+            Range range3 = 5..; // Элементы, начиная с 5-го и до конца
+
+            Console.WriteLine("Подмассив (индексы 3-6):");
+            Console.WriteLine(string.Join(", ", numbers[range1]));
+
+            Console.WriteLine("Первые 5 элементов:");
+            Console.WriteLine(string.Join(", ", numbers[range2]));
+
+            Console.WriteLine("Элементы с 5-го до конца:");
+            Console.WriteLine(string.Join(", ", numbers[range3]));
 
             // Работа со строкой
             string text = "Привет, мир! Добро пожаловать в C#.";
